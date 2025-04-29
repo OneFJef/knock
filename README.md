@@ -15,7 +15,7 @@ This software does not utilize Adobe Digital Editions nor Wine. It is completely
         inputs.knock.url = github:BentonEdmondson/knock
         outputs = { self, knock }: { /* knock.defaultPackage.x86_64-linux is the package */ }
         ```
-    * For non-NixOS, use the latest [release](https://github.com/BentonEdmondson/knock/releases). It is large because it includes all dependencies, allowing it to run on any system with an x86_64 Linux kernel. It was built using [`nix bundle`](https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix3-bundle.html). Use it by doing the following:
+    * For non-NixOS, use the latest [release](https://github.com/OneFJef/knock/releases). It is large because it includes all dependencies, allowing it to run on any system with an x86_64 Linux kernel. It was built using [`nix bundle`](https://nixos.org/manual/nix/unstable/command-ref/new-cli/nix3-bundle.html). Use it by doing the following:
         1. Download `knock-version-x8664-linux` and open a terminal
         1. Navigate to the folder within which `knock-version-x86_64-linux` resides (e.g. `cd ~/Downloads`)
         1. Run `mv knock-version-x86_64-linux knock` to rename it to `knock`
